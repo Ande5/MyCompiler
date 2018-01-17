@@ -60,6 +60,7 @@ namespace MyCompiler
             }
             PrintCompileInfo.Invoke("\nСтрока:" + s1 + '\n');
             string s2 = "";
+
             foreach (var arrVal in arrS)
             {
                 s2 += string.Format("{0} ", arrVal.Value); 

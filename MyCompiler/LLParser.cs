@@ -22,6 +22,14 @@ namespace MyCompiler
             m_terminals = loading.Terminals;
             m_nterminals = loading.NTerminals;
         }
+        public void Run(object obj)
+        {
+            string str = obj as string;
+            if (str != null)
+            {
+                Run(str);
+            }
+        }
         public void Run(string grammar_str)
         {
             m_element_str.Clear();

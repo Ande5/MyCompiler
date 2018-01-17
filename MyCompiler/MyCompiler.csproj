@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompileActions.cs" />
     <Compile Include="LLParser.cs" />
     <Compile Include="LLParserEvent.cs" />
     <Compile Include="CompilerGUI.cs">
@@ -54,8 +55,12 @@
     </Compile>
     <Compile Include="Grammatics.cs" />
     <Compile Include="LLParserLoading.cs" />
+    <Compile Include="LRParser.cs" />
+    <Compile Include="LRParserLoading.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rule.cs" />
+    <Compile Include="Word.cs" />
     <EmbeddedResource Include="CompilerGUI.resx">
       <DependentUpon>CompilerGUI.cs</DependentUpon>
     </EmbeddedResource>
